@@ -605,9 +605,9 @@
   steps:
     - Перейти на вкладку "Tournaments"
     - Нажать "Create tournament"
-    - Заполнить поле "Name" значением "My fancy tournament"
+    - Заполнить поле "Name" значением "Tanya's tournament"
     - Выбрать тип турнира "individual"
-    - Ввести markdown-описание
+    - Ввести markdown-описание Tanya's tournament description
     - Установить дату/время начала и заполнить остальные параметры (access, strategy, limits)
     - Нажать кнопку "Create"
   expected-result: |

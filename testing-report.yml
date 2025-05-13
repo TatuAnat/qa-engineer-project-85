@@ -1,0 +1,160 @@
+---
+- summary: |
+    Проверка входа в систему с помощью GitHub
+  status: pass
+
+- summary: |
+    Проверка успешной регистрации нового пользователя
+  status: pass
+
+
+- summary: |
+    Проверка входа в систему с помощью email и пароля
+  status: pass
+
+
+---
+- summary: |
+    Проверка запуска простой игры без регистрации (Try Simple Battle)
+  status: pass
+
+
+---
+- summary: |
+    Проверка сброса кода через кнопку "Reset solution"
+  status: pass
+
+---
+- summary: |
+    Проверка смены языка программирования в редакторе
+  status: pass
+
+---
+- summary: |
+    Проверка переключения между вкладками "TASK" и "OUTPUT"
+  status: pass
+
+---
+- summary: |
+    Проверка переключения темы редактора (Dark Mode / Light Mode)
+  status: pass
+
+---
+- summary: |
+    Проверка, что после нажатия "Try again" запускается новая игра с другим заданием
+  status: pass
+
+
+---
+- summary: |
+    Проверка переключения между вкладками Lobby, Tournaments и History
+  status: pass
+
+- summary: |
+    Проверка работы кнопки "Show" в лобби
+  status: pass
+
+- summary: |
+    Проверка запуска новой игры через кнопку "Fight"
+  status: pass
+
+- summary: |
+    Проверка продолжения ранее начатой игры через кнопку "Continue"
+  status: pass
+
+---
+- summary: |
+    Проверка работы кнопки "Back to Home" на странице игры
+  status: pass
+---
+- summary: |
+    Проверка ошибки при попытке начать новую игру, когда пользователь уже участвует в другой
+  status: pass
+---
+- summary: |
+    Проверка отправки сообщения в общий чат лобби
+  status: pass
+
+- summary: |
+    Проверка отправки приватного сообщения через чат
+  status: pass
+
+- summary: |
+    Проверка приглашения игрока в игру через форму "Create a Game"
+  status: pass
+
+- summary: |
+    Проверка просмотра активного турнира через кнопку "Show"
+  status: pass
+
+- summary: |
+    Проверка возможности отправки сообщений в чат турнира
+  status: pass
+
+
+- summary: |
+    Проверка отображения и переключения вкладок рейтинга (Leaderboard)
+  status: pass
+- summary: |
+    Проверка перехода по пункту меню "My Profile"
+  status: pass
+
+- summary: |
+    Проверка перехода по пункту меню "Settings"
+  status: pass
+
+- summary: |
+    Проверка перехода по пункту меню "Users rating"
+  status: pass
+
+- summary: |
+    Проверка перехода по пункту меню "Tournaments"
+  status: pass
+
+- summary: |
+    Проверка перехода по пункту меню "Tasks"
+  status: pass
+
+- summary: |
+    Проверка перехода по пункту меню "Clans"
+  status: pass
+
+- summary: |
+    Проверка перехода по пункту "SourceCode"
+  status: pass
+
+- summary: |
+    Проверка перехода по пункту "Hexlet"
+  status: pass
+
+- summary: |
+    Проверка перехода по пункту "Join Discord"
+  status: pass
+
+- summary: |
+    Проверка перехода по пункту "Tg#codebattle"
+  status: pass
+
+- summary: |
+    Проверка выхода из системы (Sign Out)
+  status: pass
+
+- summary: |
+    Проверка отображения и работы элементов на странице настроек (Settings)
+  status: pass
+
+- summary: |
+    Проверка отображения страницы "Users rating"
+  status: pass
+
+- summary: |
+    Проверка отображения списка турниров на странице "Tournaments"
+  status: pass
+
+- summary: |
+    Проверка создания нового турнира через интерфейс "Tournaments"
+  status: pass
+
+- summary: |
+    Проверка отображения страницы "Tasks"
+  status: pass
