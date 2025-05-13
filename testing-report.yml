@@ -1,4 +1,3 @@
----
 - summary: |
     Проверка входа в систему с помощью GitHub
   status: pass
@@ -13,39 +12,39 @@
   status: pass
 
 
----
+
 - summary: |
     Проверка запуска простой игры без регистрации (Try Simple Battle)
   status: pass
 
 
----
+
 - summary: |
     Проверка сброса кода через кнопку "Reset solution"
   status: pass
 
----
+
 - summary: |
     Проверка смены языка программирования в редакторе
   status: pass
 
----
+
 - summary: |
     Проверка переключения между вкладками "TASK" и "OUTPUT"
   status: pass
 
----
+
 - summary: |
     Проверка переключения темы редактора (Dark Mode / Light Mode)
   status: pass
 
----
+
 - summary: |
     Проверка, что после нажатия "Try again" запускается новая игра с другим заданием
   status: pass
 
 
----
+
 - summary: |
     Проверка переключения между вкладками Lobby, Tournaments и History
   status: pass
@@ -62,15 +61,15 @@
     Проверка продолжения ранее начатой игры через кнопку "Continue"
   status: pass
 
----
+
 - summary: |
     Проверка работы кнопки "Back to Home" на странице игры
   status: pass
----
+
 - summary: |
     Проверка ошибки при попытке начать новую игру, когда пользователь уже участвует в другой
   status: pass
----
+
 - summary: |
     Проверка отправки сообщения в общий чат лобби
   status: pass
