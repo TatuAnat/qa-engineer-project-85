@@ -155,7 +155,7 @@
   steps:
     - Убедиться, что игра завершена и активна кнопка "Try again"
     - Нажать на кнопку "Try again"
-  expected-results: |
+  expected-result: |
     задача (task) отличается от предыдущей (например, новая задача new_task)
 
 
@@ -638,11 +638,11 @@
   prerequisites: |
     Существующая учетная запись с email: tatiana.tupatilo@gmail.com
   test-data: |
-    Email: tatiana.tupatilog@gmail.com
+    Email: tatiana.tupatilo@gmail.com
   steps:
     - Перейти на страницу входа (Sign In)
     - Нажать на ссылку "Forgot your password?"
-    - Ввести email tatiana.tupatilog@gmail.com
+    - Ввести email tatiana.tupatilo@gmail.com
     - Нажать кнопку "Submit"
 
   expected-result: |
