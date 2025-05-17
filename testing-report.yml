@@ -11,13 +11,13 @@
     Проверка входа в систему с помощью email и пароля
   status: pass
 
-
-
 - summary: |
-    Проверка запуска простой игры без регистрации (Try Simple Battle)
+    Проверка прохождения гайда через "Next"
   status: pass
 
-
+- summary: |
+    Проверка пропуска гайда через "Skip guide"
+  status: pass
 
 - summary: |
     Проверка сброса кода через кнопку "Reset solution"
