@@ -92,14 +92,28 @@
   prerequisites: |
     Игра активна
   test-data: |
-    Любой язык программирования, изменённый шаблон кода
+    Текущий язык: Java 24
+    
+    Шаблон кода:
+    package solution;
+
+    import java.util.*;
+    import java.util.stream.*;
+
+    public class Solution {
+        public Integer solution(List<Integer> numbers) {
+            Integer ans = 0;
+            return ans;
+        }
+    }
   steps:
     - Открываем редактор с текущим кодом
     - Вносим произвольные изменения в решение
     - Нажимаем кнопку с тремя точками рядом с именем пользователя
     - Выбираем опцию "Reset solution"
   expected-result: |
-    код в редакторе сбрасывается к начальному шаблону
+    Первоначальный код должен совпадать с изначальным шаблоном для языка Java 24.
+
 
 
 - summary: |
@@ -166,7 +180,7 @@
     - Убедиться, что игра завершена и активна кнопка "Try again"
     - Нажать на кнопку "Try again"
   expected-result: |
-    задача (task) отличается от предыдущей (например, новая задача new_task)
+    задача (new_task) отличается от предыдущей (name_concat)  (например, новая задача new_task)
 
 
 
@@ -651,4 +665,4 @@
     - Ввести email tatiana.tupatilo@gmail.com
     - Нажать кнопку "Submit"
   expected-result: |
-    Пользователь видит уведомление, что письмо для восстановления пароля было успешно отправлено на указанный адрес
+    Пользователь видит уведомление "We have sent you an email with instructions on how to reset your password"
