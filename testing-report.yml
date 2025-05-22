@@ -162,7 +162,7 @@
   status: fail
 - summary: |
     Проверка определения победителя в активной игре после успешного решения задачи
-  status: success
+  status: pass
 - summary: |
     Проверка успешного завершения игры через кнопку "Give up"
-  status: success
+  status: pass
