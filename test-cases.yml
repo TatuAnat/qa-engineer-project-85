@@ -7,7 +7,7 @@
   test-data: |
     Учетная запись GitHub: TatuAnat
   steps:
-    - Нажимаем кнопку "Sign in" на главной странице
+    - Нажимаем кнопку "Sign in" в правом верхнем углу на главной странице
     - На странице входа нажимаем "Sign in with Github"
     - Подтверждаем доступ Codebattle к аккаунту GitHub (если требуется)
   expected-result: |
@@ -28,7 +28,8 @@
     - Переходим на страницу "Sign Up"
     - Вводим Nickname TaniaNew
     - Вводим Email prova@prova.com
-    - Вводим Password и подтверждаем его
+    - Вводим Password 12345678!
+    - Вводим Password Confirmation 12345678!
     - Нажимаем кнопку "Submit"
     - Проверяем, что регистрация прошла успешно
   expected-result: |
@@ -718,4 +719,4 @@
     - Игрок A нажимает "Run"
     - Игрок B дожидается завершения игры
   expected-result: |
-    У игрока B отображается сообщение "If you read this you've lost the game" и изображение проигравшего (динозавр с разбитым сердцем)
+    У игрока B отображается сообщение "If you read this you've lost the game" и изображение проигравшего динозавра
